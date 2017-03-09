@@ -1,2 +1,3 @@
 *.pyc
 VSCode.lnk
+build/*
