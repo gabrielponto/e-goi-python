@@ -165,3 +165,19 @@ class EgoiApiRestImpl:
     def updateList(self, functionOptions):
         return self.call('updateList', functionOptions)
 
+    #Tags
+    def addTag(self, functionOptions):
+        return self.call('addTag', functionOptions)
+
+    def attachTag(self, functionOptions):
+        return self.call('attachTag', functionOptions)
+    
+    def deleteTag(self, functionOptions):
+        return self.call('deleteTag', functionOptions)
+    
+    def detachTag(self, functionOptions):
+        return self.call('detachTag', functionOptions)
+    
+    def getTags(self, functionOptions):
+        return self.call('getTags', functionOptions)
+
